@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Random Trivia",
+    "version": "1.0",
+    "description": "Opens a new quiz question in every new tab.",
+    "chrome_url_overrides": {
+        "newtab": "quiz.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "quiz.html",
+        "default_icon": "logo.png"
+    }
+}
